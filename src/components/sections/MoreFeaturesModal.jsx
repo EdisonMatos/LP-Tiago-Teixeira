@@ -33,7 +33,7 @@ const MoreFeaturesModal = () => {
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
-        label="Saber mais"
+        label="Ver mais serviços"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const MoreFeaturesModal = () => {
           </svg>
         }
         onClick={() => setVisible(true)}
-        className="text-secondary bg-black px-[2%] py-[0.8%]"
+        className="text-secondary bg-black px-[2%] py-[0.8%] mt-[80px] tablet1:mt-[0px]"
       />
 
       <Dialog
@@ -63,16 +63,16 @@ const MoreFeaturesModal = () => {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "880px", "1440px": "60vw", "550px": "90vw" }}
+        breakpoints={{ "4000px": "600px", "1440px": "50vw", "600px": "90vw" }}
         contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
       >
-        <div className="flex flex-col desktop1:flex-wrap desktop1:flex-row desktop1:justify-center items-center gap-[40px]">
-          <MotionDivDownToUp>
+        <div className="flex flex-col  desktop1:justify-center items-center gap-[30px]">
+          <MotionDivDownToUp className="w-full">
             <IconFeatureCard
               icon={content.texts.features.moreFeatures.card1.ico}
               title={content.texts.features.moreFeatures.card1.title}
               paragraph={content.texts.features.moreFeatures.card1.subtitle}
-              className=" desktop1:h-auto mt-[30px] desktop1:w-[200px] "
+              className=" desktop1:h-auto mt-[30px] w-full tablet1:w-full desktop1:w-full "
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -80,7 +80,7 @@ const MoreFeaturesModal = () => {
               icon={content.texts.features.moreFeatures.card2.ico}
               title={content.texts.features.moreFeatures.card2.title}
               paragraph={content.texts.features.moreFeatures.card2.subtitle}
-              className=" desktop1:h-auto desktop1:w-[200px] "
+              className=" desktop1:h-auto mt-[30px] w-full tablet1:w-full desktop1:w-full "
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -88,7 +88,7 @@ const MoreFeaturesModal = () => {
               icon={content.texts.features.moreFeatures.card3.ico}
               title={content.texts.features.moreFeatures.card3.title}
               paragraph={content.texts.features.moreFeatures.card3.subtitle}
-              className=" desktop1:h-auto desktop1:w-[200px] "
+              className=" desktop1:h-auto mt-[30px] w-full tablet1:w-full desktop1:w-full "
             />
           </MotionDivDownToUp>
           <div className="w-full h-px bg-neutral-400"></div>

@@ -52,6 +52,8 @@ import {
   FileX,
   HousePlus,
   Grid2x2Check,
+  CircleDollarSign,
+  UserPen,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -84,7 +86,7 @@ export const infos = {
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através do site de vocês e gostaria de conversar com um advogado.",
   slogan: "",
 };
 
@@ -174,7 +176,7 @@ const content = {
       miniTag: "ESPECIALIDADES",
       title: "Soluções Imobiliárias com excelência",
       subtitle:
-        "Especializados em regularização fundiária, aquisição de imóveis e correção de registros.",
+        "Buscamos a melhor solução jurídica para a regularização de seu imóvel e do direito de herança.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -211,8 +213,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Regularização de Imóveis",
-        subtitle: "Legalização de imóveis conforme normas e registros.",
+        title: "Reurb",
+        subtitle: "Regularização fundiária urbana de núcleos consolidados.",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +222,15 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <FileCheck />,
+        icon: <HousePlus />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Demais áreas",
-        subtitle: "Clique no botão para saber todas áreas que atuamos",
+        title: "Adjudicação Compulsória",
+        subtitle:
+          "Visa regularizar a formalização da compra e venda quando o vendedor se recusa ou não pode fazê-la.",
         description: (
           <div>
             A Definir <br />
@@ -237,27 +240,58 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Scale />,
+        icon: <CircleDollarSign />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       moreFeatures: {
         card1: {
-          ico: <FileX />,
-          title: "Adjudicação Compulsória",
-          subtitle:
-            "Ação judicial para obter imóvel quando há quebra de contrato.",
+          ico: <UserPen />,
+          title: (
+            <h1>
+              Serviços extrajudiciais <br />
+              (regularização em cartório)
+            </h1>
+          ),
+          subtitle: (
+            <p>
+              ​- Usucapião extrajudicial; <br />
+              - Adjudicação compulsória extrajudicial; <br />-{" "}
+              <span className="italic">Due diligence</span> imobiliária para
+              compra de imóveis; <br />
+              - Escritura declaratória de posse; <br />
+              - Inventário extrajudicial; <br />
+              - Ata Notarial; <br />
+              - Notificação extrajudicial; <br />
+              - Desmembramento/fusão de imóveis; <br />
+              - Atualização/retificação do registro do imóvel/servidões; <br />-
+              Contratos de compra e venda/cessão de posse/arrendamento.
+            </p>
+          ),
         },
         card2: {
           ico: <HousePlus />,
-          title: "Reurb",
-          subtitle: "Regularização fundiária para garantir segurança jurídica.",
+          title: "Assessoria na compra e venda de imóveis rurais",
+          subtitle: (
+            <p>
+              - <span className="italic">Due diligence</span> - Parecer sobre a
+              segurança na aquisição do imóvel; <br />
+              - Contrato de compra e venda; <br />
+              - Acompanhamento na escritura compra e venda; <br />-
+              Acompanhamento no registro da compra e venda.
+            </p>
+          ),
         },
         card3: {
           ico: <Grid2x2Check />,
-          title: "Retificação de Área",
-          subtitle:
-            "Correção de registros para refletir a área real do imóvel.",
+          title: "Regularização da área do imóvel",
+          subtitle: (
+            <p>
+              - Retificação de área; <br />
+              - Ação demarcatória; <br />
+              - Ação divisória; <br />- Desmembramento/fusão
+            </p>
+          ),
         },
       },
     },
@@ -269,7 +303,7 @@ const content = {
       miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
       title: "Minha trajetória",
       subtitle:
-        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo.",
+        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo).",
       paragraph: (
         <div>
           O escritório Tiago Teixeira Silva Advocacia é especializado em
@@ -387,7 +421,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Agende sua consulta conosco via WhatsApp, conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
