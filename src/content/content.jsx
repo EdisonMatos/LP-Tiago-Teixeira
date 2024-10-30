@@ -53,6 +53,7 @@ import {
   HousePlus,
   Grid2x2Check,
   CircleDollarSign,
+  UserPen,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -245,13 +246,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: <FileX />,
-          title: "Serviços extrajudiciais (regularização em cartório)",
+          ico: <UserPen />,
+          title: (
+            <h1>
+              Serviços extrajudiciais <br />
+              (regularização em cartório)
+            </h1>
+          ),
           subtitle: (
             <p>
               ​- Usucapião extrajudicial; <br />
-              - Adjudicação compulsória extrajudicial; <br />
-              - Due diligence imobiliária para compra de imóveis; <br />
+              - Adjudicação compulsória extrajudicial; <br />-{" "}
+              <span className="italic">Due diligence</span> imobiliária para
+              compra de imóveis; <br />
               - Escritura declaratória de posse; <br />
               - Inventário extrajudicial; <br />
               - Ata Notarial; <br />
@@ -267,10 +274,10 @@ const content = {
           title: "Assessoria na compra e venda de imóveis rurais",
           subtitle: (
             <p>
-              a) <span className="italic">Due diligence</span> - Parecer sobre a
+              - <span className="italic">Due diligence</span> - Parecer sobre a
               segurança na aquisição do imóvel; <br />
-              b) Contrato de compra e venda; <br />
-              c) Acompanhamento na escritura compra e venda; <br />-
+              - Contrato de compra e venda; <br />
+              - Acompanhamento na escritura compra e venda; <br />-
               Acompanhamento no registro da compra e venda.
             </p>
           ),
@@ -280,10 +287,9 @@ const content = {
           title: "Regularização da área do imóvel",
           subtitle: (
             <p>
-              a) Retificação de área; <br />
-              b) Ação demarcatória; <br />
-              c) Ação divisória; <br />
-              d) Desmembramento/fusão
+              - Retificação de área; <br />
+              - Ação demarcatória; <br />
+              - Ação divisória; <br />- Desmembramento/fusão
             </p>
           ),
         },
@@ -297,7 +303,7 @@ const content = {
       miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
       title: "Minha trajetória",
       subtitle:
-        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo.",
+        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo).",
       paragraph: (
         <div>
           O escritório Tiago Teixeira Silva Advocacia é especializado em
@@ -415,7 +421,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Agende sua consulta conosco via WhatsApp, conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",

@@ -37,7 +37,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
                   paragraph={content.texts.features.card1.subtitle}
-                  className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                  className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[22px] desktop1:h-[250px]"
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp>
@@ -45,6 +45,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
                   paragraph={content.texts.features.card2.subtitle}
+                  className="desktop1:h-[400px]"
                 />
               </MotionDivDownToUp>
             </div>
@@ -63,14 +64,15 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
                   paragraph={content.texts.features.card3.subtitle}
-                  className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                  className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[22px] desktop1:h-[250px]"
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
+              <MotionDivDownToUp className="flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
+                  className="desktop1:h-[400px]"
                 >
                   {modal && (
                     <div>
