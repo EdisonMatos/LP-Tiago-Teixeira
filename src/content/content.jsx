@@ -117,7 +117,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO IMOBILIÁRIO EM CAMPINAS - SP",
+      miniTag: "INVENTÁRIO E USUCAPIÃO EM CAMPINAS - SP",
       title: (
         <h1 className="mb-[16px]">
           Transformamos{" "}
@@ -125,8 +125,15 @@ const content = {
           soluções
         </h1>
       ),
-      subtitle:
-        "Especialistas em inventários e regularização para proteger seu patrimônio e garantir seus direitos.",
+      subtitle: (
+        <p>
+          Especialistas em{" "}
+          <strong className="text-primary">
+            inventários e regularização imobiliárias{" "}
+          </strong>
+          para proteger seu patrimônio e garantir seus direitos.
+        </p>
+      ),
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
