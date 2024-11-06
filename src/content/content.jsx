@@ -128,9 +128,9 @@ const content = {
       subtitle: (
         <p>
           Especialistas em{" "}
-          <strong className="text-primary">
-            inventários e regularização imobiliárias{" "}
-          </strong>
+          <span className="font-bold text-primary">
+            inventários e regularização imobiliária
+          </span>{" "}
           para proteger seu patrimônio e garantir seus direitos.
         </p>
       ),
@@ -309,10 +309,13 @@ const content = {
       },
       miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
       title: "Minha trajetória",
-      subtitle:
-        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo).",
+      subtitle: "",
       paragraph: (
         <div>
+          Advogado com MBA em Direito Contratual (FGV), especialista em Direito
+          dos Recursos Naturais (IGE UNICAMP), Direito Ambiental (Escola
+          Superior do Ministério Público de São Paulo), Usucapião e Inventário.
+          <br /> <br />
           O escritório Tiago Teixeira Silva Advocacia é especializado em
           INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
           sempre se aperfeiçoando para proporcionar segurança na transmissão dos
