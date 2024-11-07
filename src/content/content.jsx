@@ -314,7 +314,8 @@ const content = {
         <div>
           Advogado com MBA em Direito Contratual (FGV), especialista em Direito
           dos Recursos Naturais (IGE UNICAMP), Direito Ambiental (Escola
-          Superior do Ministério Público de São Paulo), Usucapião e Inventário.
+          Superior do Ministério Público de São Paulo), especialista em
+          Usucapião e Inventário.
           <br /> <br />
           O escritório Tiago Teixeira Silva Advocacia é especializado em
           INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
@@ -332,8 +333,9 @@ const content = {
         <p>
           <strong>
             Advogado com MBA em Direito Contratual (FGV), especialista em
-            Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental
-            (Escola Superior do Ministério Público de São Paulo).
+            Direito dos Recursos Naturais (IGE UNICAMP), Direito Ambiental
+            (Escola Superior do Ministério Público de São Paulo), especialista
+            em Usucapião e Inventário.
           </strong>
           <br />
           <br />
