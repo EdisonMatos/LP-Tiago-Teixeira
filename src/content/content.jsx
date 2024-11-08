@@ -190,7 +190,7 @@ const content = {
         img: featuresImg1,
         title: "Inventário",
         subtitle:
-          "Divisão de bens e regularização patrimonial pós-falecimento.",
+          "Divisão judicial ou extrajudicial de bens e regularização patrimonial pós-falecimento.",
         description: (
           <div>
             A Definir <br />
