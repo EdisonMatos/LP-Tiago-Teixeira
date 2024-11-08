@@ -251,6 +251,24 @@ const content = {
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
+      card9: {
+        img: featuresImg4,
+        title: "Teste Diagnóstico",
+        subtitle:
+          "Texto utilizado para fins de diagnóstico e ajustes necessários",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <HousePlus />,
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
       moreFeatures: {
         card1: {
           ico: <UserPen />,
