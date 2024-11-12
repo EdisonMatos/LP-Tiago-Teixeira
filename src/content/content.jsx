@@ -61,7 +61,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Teixeira Silva Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "texadvogados.com.br", // Sem "www"
   phone: {
     ddd: "19",
     firstPart: "99844", // Apenas os 5 primeiros números (incluindo o 9)
