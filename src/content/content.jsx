@@ -253,9 +253,8 @@ const content = {
       },
       card9: {
         img: featuresImg4,
-        title: "Teste Diagnóstico",
-        subtitle:
-          "Texto utilizado para fins de diagnóstico e ajustes necessários",
+        title: "Reurb",
+        subtitle: "Regularização fundiária urbana de núcleos consolidados.",
         description: (
           <div>
             A Definir <br />
