@@ -3,7 +3,7 @@ export default function IconFeatureCard(props) {
 
   return (
     <div
-      className={`w-full p-0 tablet1:w-[290px] desktop1:w-[260px] h-[310px] desktop1:h-[300px] flex flex-col items-center transition desktop1:p-0 ${className}`}
+      className={`w-full p-0 tablet1:w-[290px] desktop1:w-[260px] h-[310px] desktop1:h-[335px] flex flex-col items-center transition desktop1:p-0 ${className}`}
     >
       <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-md flex justify-center items-center text-secondary">
         {icon}

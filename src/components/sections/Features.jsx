@@ -37,7 +37,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
                   paragraph={content.texts.features.card1.subtitle}
-                  className="tablet1:mb-[26px]"
+                  className="tablet1:mb-[26px] desktop1:mb-0"
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp>
@@ -45,7 +45,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card9.icon}
                   title={content.texts.features.card9.title}
                   paragraph={content.texts.features.card9.subtitle}
-                  className="desktop1:h-[400px]"
+                  className=""
                 />
               </MotionDivDownToUp>
             </div>
@@ -64,7 +64,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
                   paragraph={content.texts.features.card2.subtitle}
-                  className="tablet1:mb-[26px]"
+                  className="tablet1:mb-[26px] desktop1:mb-0"
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp className="flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] mt-[32px] tablet1:mt-0">
@@ -72,7 +72,7 @@ export default function Features({ modal }) {
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
-                  className="desktop1:h-[400px]"
+                  className=""
                 >
                   {modal && (
                     <div>
