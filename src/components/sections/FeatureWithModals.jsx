@@ -50,7 +50,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
-                  paragraph="- Usucapião (Judicial e Extrajudicial) - Para quem deseja obter a
+                  paragraph="Usucapião (Judicial e Extrajudicial) - Para quem deseja obter a
                   propriedade de um imóvel irregular."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
@@ -101,7 +101,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
-                  paragraph="- Consultoria jurídica para adequação de imóveis, urbanos e rurais,
+                  paragraph="Consultoria jurídica para adequação de imóveis, urbanos e rurais,
                   à legislação ambiental."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
@@ -152,7 +152,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph=" - Análise de Riscos e Passivos Ambientais - Investigação de
+                  paragraph="Análise de Riscos e Passivos Ambientais - Investigação de
                   possíveis restrições ambientais em imóveis urbanos e rurais."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
@@ -203,7 +203,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
-                  paragraph="- Inventário Judicial e Extrajudicial - Assessoria para a partilha
+                  paragraph="Inventário Judicial e Extrajudicial - Assessoria para a partilha
                   ágil e segura de bens. "
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
