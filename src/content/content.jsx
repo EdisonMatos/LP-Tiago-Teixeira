@@ -188,9 +188,33 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Inventário",
-        subtitle:
-          "Divisão judicial ou extrajudicial de bens e regularização patrimonial pós-falecimento.",
+        title: "Regularização de Imóveis",
+        subtitle: (
+          <p>
+            - Usucapião (Judicial e Extrajudicial) - Para quem deseja obter a
+            propriedade de um imóvel irregular.
+            <br />
+            <br />- Adjudicação compulsória (Judicial e Extrajudicial) - Para
+            quem precisa transferir a propriedade de um imóvel quando o vendedor
+            se recusa ou não pode assinar a escritura definitiva, mesmo após o
+            comprador ter cumprido todas as obrigações do contrato.
+            <br />
+            <br />- Reurb (Regularização Fundiária Urbana) - Regularizamos
+            loteamentos e imóveis urbanos consolidados,garantindo a titulação e
+            segurança jurídica.
+            <br />
+            <br />- Retificação de Área Correção de medidas e confrontações para
+            adequação à realidade jurídica e cartorial.
+            <br />
+            <br />- Registro de Contratos Escrituras - Atuação em cartórios para
+            garantir a formalização e publicidade dos negócios imobiliários.
+            <br />
+            <br />- Assessoria no Desmembramento e Unificação de Imóveis -
+            Estruturamos juridicamente a divisão ou junção de propriedades.
+            <br />
+            <br />
+          </p>
+        ),
         description: (
           <div>
             A Definir <br />
@@ -198,14 +222,33 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <BadgePercent />,
+        icon: <BadgePercent height={42} width={42} />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Usucapião",
-        subtitle: "Posse do imóvel por tempo prolongado e pacífico.",
+        title: "Direito Ambiental Aplicado à Regularização de Imóveis",
+        subtitle: (
+          <p>
+            - Consultoria jurídica para adequação de imóveis, urbanos e rurais,
+            à legislação ambiental.
+            <br />
+            <br />- Consultoria jurídica para Licenciamento Ambiental de
+            Empreendimentos Imobiliários Suporte jurídico para obtenção de
+            licenças e autorizações ambientais.
+            <br />
+            <br />- Supressão Vegetal e Compensação Ambiental - Assessoria na
+            regularização de corte de árvores e mitigação/ Compensação
+            ambiental.
+            <br />
+            <br />- Defesas Administrativas e Processos de Infrações Ambientais
+            - Representação perante órgãos ambientais para contestação de
+            autuações.
+            <br />
+            <br />
+          </p>
+        ),
         description: (
           <div>
             A Definir <br />
@@ -214,14 +257,31 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <House />,
+        icon: <House height={42} width={42} />,
         buttonLabelModal: "Ortodontia",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Reurb",
-        subtitle: "Regularização fundiária urbana de núcleos consolidados.",
+        title: "Due Diligence Imobiliária e Ambiental",
+        subtitle: (
+          <p>
+            - Análise de Riscos e Passivos Ambientais - Investigação de
+            possíveis restrições ambientais em imóveis urbanos e rurais.
+            <br />
+            <br />- Verificação de Conformidade Urbanística e Registral
+            Avaliação sde restrições legais antes da aquisição ou regularização.
+            <br />
+            <br />- Revisão de Documentação e Diagnóstico Jurídico -
+            Levantamento e análise de matrículas, certidões, registros e
+            possíveis ônus.
+            <br />
+            <br />- Assessoria para Aquisição- Segura de Imóveis - Suporte na
+            negociação, elaboração e revisão de contratos de compra e venda.
+            <br/>
+            <br/>
+          </p>
+        ),
         description: (
           <div>
             A Definir <br />
@@ -229,15 +289,27 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <HousePlus />,
+        icon: <HousePlus height={42} width={42} />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Adjudicação Compulsória",
-        subtitle:
-          "Visa regularizar a formalização da compra e venda quando o vendedor se recusa ou não pode fazê-la.",
+        title: " Inventário e Planejamento Sucessório",
+        subtitle: (
+          <p>
+            - Inventário Judicial e Extrajudicial - Assessoria para a partilha
+            ágil e segura de bens. 
+            <br/>
+            <br/>- Declaração e Cálculo de ITCMD – Orientação
+            para minimizar custos e garantir a conformidade fiscal. 
+            <br/>
+            <br/>- Testamentos e Doações em Vida - Planejamento sucessório para
+            proteção do patrimônio.
+            <br/>
+            <br/>
+          </p>
+        ),
         description: (
           <div>
             A Definir <br />
@@ -247,7 +319,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <CircleDollarSign />,
+        icon: <CircleDollarSign height={42} width={42} />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
