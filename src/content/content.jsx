@@ -266,20 +266,21 @@ const content = {
         title: "Due Diligence Imobiliária e Ambiental",
         subtitle: (
           <p>
-            - Análise de Riscos e Passivos Ambientais - Investigação de
-            possíveis restrições ambientais em imóveis urbanos e rurais.
+            - Assessoria para Aquisição- Segura de Imóveis - Suporte na
+            negociação, elaboração e revisão de contratos de compra e venda.
+            <br />
+            <br />- Análise de Riscos para compra de imóveis e Passivos
+            Ambientais - Investigação de possíveis restrições ambientais em
+            imóveis urbanos e rurais.
             <br />
             <br />- Verificação de Conformidade Urbanística e Registral
-            Avaliação sde restrições legais antes da aquisição ou regularização.
+            Avaliação de restrições legais antes da aquisição ou regularização.
             <br />
             <br />- Revisão de Documentação e Diagnóstico Jurídico -
             Levantamento e análise de matrículas, certidões, registros e
             possíveis ônus.
             <br />
-            <br />- Assessoria para Aquisição- Segura de Imóveis - Suporte na
-            negociação, elaboração e revisão de contratos de compra e venda.
-            <br/>
-            <br/>
+            <br />
           </p>
         ),
         description: (
@@ -299,15 +300,15 @@ const content = {
         subtitle: (
           <p>
             - Inventário Judicial e Extrajudicial - Assessoria para a partilha
-            ágil e segura de bens. 
-            <br/>
-            <br/>- Declaração e Cálculo de ITCMD – Orientação
-            para minimizar custos e garantir a conformidade fiscal. 
-            <br/>
-            <br/>- Testamentos e Doações em Vida - Planejamento sucessório para
+            ágil e segura de bens.
+            <br />
+            <br />- Declaração e Cálculo de ITCMD – Orientação para minimizar
+            custos e garantir a conformidade fiscal.
+            <br />
+            <br />- Testamentos e Doações em Vida - Planejamento sucessório para
             proteção do patrimônio.
-            <br/>
-            <br/>
+            <br />
+            <br />
           </p>
         ),
         description: (
