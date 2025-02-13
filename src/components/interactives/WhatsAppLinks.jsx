@@ -31,7 +31,7 @@ export default function WhatsAppLinks() {
           <div className="flex flex-col w-full max-w-xs gap-3 space-y-4">
             <Button
               aria-label="Botão de contato"
-              label="Dr número 1"
+              label="19 99844-8664"
               buttonLink={whatsappContactLink}
               animation
               className="w-[100%]"
@@ -51,8 +51,8 @@ export default function WhatsAppLinks() {
 
             <Button
               aria-label="Botão de contato"
-              label="Dr número 2s"
-              buttonLink="https://wa.me/5586994819000?(86)%2099481-9000%3F"
+              label="19 99915-0353"
+              buttonLink="https://wa.me/19998448664?"
               animation
               className="w-[100%]"
               icon={
