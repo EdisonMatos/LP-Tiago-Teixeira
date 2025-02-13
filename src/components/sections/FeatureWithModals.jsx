@@ -154,7 +154,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph="Assessoria para Aquisição- Segura de Imóveis - Suporte na
+                  paragraph="git checkout developAssessoria para Aquisição- Segura de Imóveis - Suporte na
             negociação, elaboração e revisão de contratos de compra e venda."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
