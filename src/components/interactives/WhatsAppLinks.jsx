@@ -4,15 +4,14 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-
 export default function WhatsAppLinks() {
   return (
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-black bg-center bg-cover bg-opacity-70 desktop1:bg-fixed"
-    //   style={{
-    //     backgroundImage: `url(${content.cta.bgImg})`,
-    //     backgroundRepeat: "",
-    //   }}
+      //   style={{
+      //     backgroundImage: `url(${content.cta.bgImg})`,
+      //     backgroundRepeat: "",
+      //   }}
     >
       <div className="flex items-center justify-center w-full h-screen bg-black bg-opacity-70">
         <div className="flex flex-col items-center p-4">
@@ -52,7 +51,7 @@ export default function WhatsAppLinks() {
             <Button
               aria-label="Botão de contato"
               label="19 99915-0353"
-              buttonLink="https://wa.me/19998448664?"
+              buttonLink="https://wa.me/+5519999150353?text=Olá!%20Vim%20através%20do%20site%20de%20vocês%20e%20gostaria%20de%20conversar%20com%20um%20advogado."
               animation
               className="w-[100%]"
               icon={
