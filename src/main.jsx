@@ -6,11 +6,13 @@ import "./index.css";
 import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
 import LandingPage from "./pages/LandingPage.jsx";
+import WhatsAppLinks from "./components/interactives/WhatsAppLinks.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
+      <Route path="/whatsapp" element={<WhatsAppLinks />} />
       {/* <Route path="/lpx1" element={<LandingPage />} /> */}
     </Routes>
   </Router>

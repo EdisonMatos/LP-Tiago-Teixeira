@@ -12,10 +12,13 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function FeatureWithModals({ modals }) {
+
+  const navigate = useNavigate();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -69,8 +72,7 @@ export default function FeatureWithModals({ modals }) {
                           <Button
                             aria-label={content.texts.about.ctaButtonAriaLabel}
                             label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
-                            animation={false}
+                            onClick={() => navigate("/whatsapp")}                            animation={false}
                             className="hover:scale-105"
                             icon={<FaWhatsapp size={24} />}
                           />
@@ -120,7 +122,7 @@ export default function FeatureWithModals({ modals }) {
                           <Button
                             aria-label={content.texts.about.ctaButtonAriaLabel}
                             label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
+                            onClick={() => navigate("/whatsapp")}
                             animation={false}
                             className="hover:scale-105"
                             icon={<FaWhatsapp size={24} />}
@@ -171,7 +173,7 @@ export default function FeatureWithModals({ modals }) {
                           <Button
                             aria-label={content.texts.about.ctaButtonAriaLabel}
                             label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
+                            onClick={() => navigate("/whatsapp")}
                             animation={false}
                             className="hover:scale-105"
                             icon={<FaWhatsapp size={24} />}
@@ -222,7 +224,7 @@ export default function FeatureWithModals({ modals }) {
                           <Button
                             aria-label={content.texts.about.ctaButtonAriaLabel}
                             label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
+                            onClick={() => navigate("/whatsapp")}
                             animation={false}
                             className="hover:scale-105"
                             icon={<FaWhatsapp size={24} />}
