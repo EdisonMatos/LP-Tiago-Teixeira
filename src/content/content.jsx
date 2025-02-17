@@ -266,19 +266,21 @@ const content = {
         title: "Due Diligence Imobiliária e Ambiental",
         subtitle: (
           <p>
-            - Assessoria para Aquisição- Segura de Imóveis - Suporte na
+            - Assessoria para aquisição segura de Imóveis - Suporte na
             negociação, elaboração e revisão de contratos de compra e venda.
             <br />
-            <br />- Análise de Riscos para compra de imóveis e Passivos
-            Ambientais - Investigação de possíveis restrições ambientais em
-            imóveis urbanos e rurais.
             <br />
-            <br />- Verificação de Conformidade Urbanística e Registral
-            Avaliação de restrições legais antes da aquisição ou regularização.
+            - Análise de Riscos para compra de imóveis e Passivos Ambientais -
+            Investigação de possíveis restrições ambientais em imóveis urbanos e
+            rurais.
             <br />
-            <br />- Revisão de Documentação e Diagnóstico Jurídico -
-            Levantamento e análise de matrículas, certidões, registros e
-            possíveis ônus.
+            <br />
+            - Verificação de Conformidade Urbanística e Registral Avaliação de
+            restrições legais antes da aquisição ou regularização.
+            <br />
+            <br />
+            - Revisão de Documentação e Diagnóstico Jurídico - Levantamento e
+            análise de matrículas, certidões, registros e possíveis ônus.
             <br />
             <br />
           </p>
@@ -511,7 +513,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos as ações judiciais necessárias para buscar sua solução.",
+            "Iniciamos as ações judiciais e/ou extrajudiciais necessárias para buscar sua solução.",
         },
       },
     },

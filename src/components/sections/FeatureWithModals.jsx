@@ -17,7 +17,6 @@ import { useNavigate } from "react-router-dom";
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function FeatureWithModals({ modals }) {
-
   const navigate = useNavigate();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
@@ -72,7 +71,8 @@ export default function FeatureWithModals({ modals }) {
                           <Button
                             aria-label={content.texts.about.ctaButtonAriaLabel}
                             label={content.texts.about.ctaButtonText}
-                            onClick={() => navigate("/whatsapp")}                            animation={false}
+                            onClick={() => navigate("/whatsapp")}
+                            animation={false}
                             className="hover:scale-105"
                             icon={<FaWhatsapp size={24} />}
                           />
@@ -154,7 +154,7 @@ export default function FeatureWithModals({ modals }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph="git checkout developAssessoria para Aquisição- Segura de Imóveis - Suporte na
+                  paragraph="Assessoria para Aquisição - Segura de Imóveis - Suporte na
             negociação, elaboração e revisão de contratos de compra e venda."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
