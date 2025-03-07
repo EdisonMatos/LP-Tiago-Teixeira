@@ -19,7 +19,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 export default function About({ modal }) {
-
   const navigate = useNavigate();
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
@@ -50,7 +49,7 @@ export default function About({ modal }) {
     <SectionArea id="about" className="bg-bgSectionDark">
       <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center shadow-custom-opacity shadow-black/30">
           <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,

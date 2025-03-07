@@ -30,7 +30,7 @@ export default function Features({ modal }) {
         />
 
         <SectionWrapper>
-          <div className="flex flex-col items-center w-full tablet1:flex-row justify-between">
+          <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
             <div className="col1 desktop1:w-[28%] flex flex-col items-center">
               <MotionDivDownToUp>
                 <IconFeatureCard
