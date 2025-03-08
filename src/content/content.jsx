@@ -394,6 +394,18 @@ const content = {
         },
       },
     },
+    blog: {
+      miniTag: "BLOG",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+      img: imgSteps,
+      blogApiEndpoint:
+        "https://public-api.wordpress.com/rest/v1.1/sites/texadvogados.wordpress.com/posts/",
+      labelCards: "Ver mais",
+      label: "Clique aqui para ver todas as matérias",
+      blogLink: "https://texadvogados.wordpress.com/",
+    },
     about: {
       imagem: {
         img: aboutImg1,
